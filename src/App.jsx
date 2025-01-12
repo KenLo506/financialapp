@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import DataTable from './components/DataTable';
 import Filters from './components/Filters';
-// import './App.css';
 
 const App = () => {
   const [data, setData] = useState([]);

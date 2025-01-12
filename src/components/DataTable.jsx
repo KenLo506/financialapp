@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import './DataTable.css';
 
 const DataTable = ({ data }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'ascending' });

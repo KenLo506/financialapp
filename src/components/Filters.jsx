@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import './Filters.css';
 
 const Filters = ({ data, setFilteredData }) => {
   const [startYear, setStartYear] = useState('');
